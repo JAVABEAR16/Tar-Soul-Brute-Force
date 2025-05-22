@@ -32,5 +32,5 @@ while senha != tentativa:
     tentativa = ''.join(random.choices(caracteres_possíveis, k=mensurador))
     print(tentativa)
 print()
-print(f"A senha é {tentativa}, e demorou {contador} para que o código fosse quebrado pelo Tar Soul!")
+print(f"A senha é {tentativa}, e demorou {contador} tentativas para que o código fosse quebrado pelo Tar Soul!")
 print()
